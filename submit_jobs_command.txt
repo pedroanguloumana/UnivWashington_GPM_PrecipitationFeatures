@@ -1,0 +1,1 @@
+qsub -V -q MPI -pe smp 16 ~/UnivWashington_GPM_PrecipitationFeatures/run_processing_gpm.sh
