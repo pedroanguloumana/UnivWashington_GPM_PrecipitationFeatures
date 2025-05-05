@@ -1,5 +1,5 @@
 #!/bin/bash
-#$ -N  sas   # Job name
+#$ -N  h01_2023   # Job name
 #$ -e /home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/job_scripts # Error file
 #$ -o /home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/job_scripts # Output file
 

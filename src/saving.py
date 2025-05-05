@@ -47,7 +47,7 @@ def save_dataframe(database_dict, region, year, month):
     df = pd.DataFrame.from_dict(database_dict)
     
     # Construct the directory path
-    path_to_save = f'/home/disk/tc/pangulo/UW_GPM_Precipitation_Feature_Dataset/{region}/'
+    path_to_save = f'/home/disk/tc/pangulo/gpm_precip_features/{region}/'
     
     # Ensure the directory exists
     os.makedirs(path_to_save, exist_ok=True)

@@ -1,0 +1,23 @@
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 20 to job
+mpirun: Forwarding signal 18 to job
+mpirun: Forwarding signal 18 to job
+./loop_processing_gpm.sh: line 12: 1578893 Killed                  python /home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py ${REGION} ${y} ${m}

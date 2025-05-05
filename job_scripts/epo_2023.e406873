@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 88, in <module>
+    process(region, year, month, stats_to_compute)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 63, in process
+    save_dataframe(stats_to_save, region, year, month)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/src/saving.py", line 61, in save_dataframe
+    raise RuntimeError("append mode deprecated")
+RuntimeError: append mode deprecated
+Traceback (most recent call last):
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 88, in <module>
+    process(region, year, month, stats_to_compute)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 63, in process
+    save_dataframe(stats_to_save, region, year, month)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/src/saving.py", line 61, in save_dataframe
+    raise RuntimeError("append mode deprecated")
+RuntimeError: append mode deprecated
+Traceback (most recent call last):
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 88, in <module>
+    process(region, year, month, stats_to_compute)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 63, in process
+    save_dataframe(stats_to_save, region, year, month)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/src/saving.py", line 61, in save_dataframe
+    raise RuntimeError("append mode deprecated")
+RuntimeError: append mode deprecated
+Traceback (most recent call last):
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 88, in <module>
+    process(region, year, month, stats_to_compute)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 63, in process
+    save_dataframe(stats_to_save, region, year, month)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/src/saving.py", line 61, in save_dataframe
+    raise RuntimeError("append mode deprecated")
+RuntimeError: append mode deprecated
+Traceback (most recent call last):
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 88, in <module>
+    process(region, year, month, stats_to_compute)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/Process_GPM_Data.py", line 63, in process
+    save_dataframe(stats_to_save, region, year, month)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/disk/p/pangulo/UnivWashington_GPM_PrecipitationFeatures/src/saving.py", line 61, in save_dataframe
+    raise RuntimeError("append mode deprecated")
+RuntimeError: append mode deprecated
