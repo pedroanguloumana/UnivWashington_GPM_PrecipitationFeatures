@@ -25,6 +25,7 @@ def get_stats_dict(do_basic_info, do_rain_stats, do_core_stats):
                 'total_convective_precip': total_conv_precip,
                 'total_stratiform_precip': total_strat_precip,
                 'max_precip': max_precip,
+                'gini_index': gini,
             }
         )
     if do_core_stats:

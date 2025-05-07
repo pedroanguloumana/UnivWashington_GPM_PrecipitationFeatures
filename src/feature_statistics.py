@@ -92,3 +92,23 @@ def largest_convective_cluster_precip(ds):
     largest_cluster = largest_cluster_mask(convective_mask, connectivity=8)
     return precip.where(largest_cluster, drop=True).sum().item()
 
+def gini(ds):
+    x = ds.near_surf_rain.data.ravel()
+    x = x[~np.isnan(x)]
+
+    if x.ndim != 1:
+        raise ValueError("Input must be 1-D")
+
+    if np.any(x < 0):
+        raise ValueError("Values must be non-negative")
+
+    if np.all(x == 0):
+        return 0.0                       # undefined mathematically, but sensible
+
+    x_sorted = np.sort(x)
+    n = x_sorted.size
+    cumindex = np.arange(1, n + 1)       # 1 … n
+
+    return (np.sum((2 * cumindex - n - 1) * x_sorted) /
+            (n * x_sorted.sum()))
+    
